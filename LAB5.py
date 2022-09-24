@@ -23,3 +23,4 @@ tt=sns.scatterplot(data=IrisDataframe, x='SepalLengthCm', y='PetalLengthCm', hue
 box_plot =sns.boxplot(data=IrisDataframe, y= 'PetalLengthCm',x='Species', hue='Species')
 
 violin_plot =sns.violinplot(data=IrisDataframe, y= 'PetalLengthCm',x='Species', hue='Species')
+#use plt.show() for showing visualization 

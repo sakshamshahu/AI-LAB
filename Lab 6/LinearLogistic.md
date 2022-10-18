@@ -16,12 +16,12 @@ Logistic regression is a classification problem despite having ‘regression’ 
 
 Logistic regression works on the basis of a sigmoid curve, which is an S-shaped curve if visualized on a graph. The range for the plot varies from 0 to 1. The values considered are reduced using a function which is:
 
-![Formula](/home/saksham/ff.png "Formula")
+![Formula](imgs/ff.png "Formula")
 
 Logistic Regression is a significant machine learning algorithm because it has the ability to provide probabilities and classify new data using continuous and discrete datasets. Logistic regression predicts the probability of an occurrence and then classifies it. The classification revolves around two states. 
 
-![Graph of logistic regression](/home/saksham/logistic.png "Logistic Regression")
+![Graph of logistic regression](imgs/logistic.png "Logistic Regression")
 
 Whereas, Linear regression is a linear model, e.g., a model that assumes a linear relationship between the input variables (x) and the single output variable (y). More specifically, that y can be calculated from a linear combination of the input variables (x). When working with linear regression, our main goal is to find the best fit line which means the error between predicted values and actual values should be minimized. The best fit line will have the least error. Thus, linear regression doesn’t provide us with a definite 2-state classification, instead, it will provide me the prediction based on the best fit line. So, the response variable generated tends to be continuous.
 
-![Linear Regression](/h/home/saksham/LinearRegression.png "Linear Regression")
+![Linear Regression](imgs/LinearRegression.png "Linear Regression")

@@ -9,8 +9,8 @@ Machine Learning can be classified into broadly 3 types: - 
 This summary won’t dive much into these types but as the algorithms, we are discussing belong to the category of Supervised Learning, thus we have to talk a little bit about this. Both linear and logistic regression come under the umbrella of supervised learning. In supervised learning, we provide our machine with sample data that is already labeled/categorized. So, in short, it is easier for the machine and the researcher to pinpoint the predictions they are looking for, as class labels for data points already exist. In contrast, unsupervised learning is the opposite as class labels don’t exist in the initial sample data. So, in an unambiguous way, we can say that in unsupervised learning the machine learns without any kind of supervision provided by class labels instead it finds hidden patterns on its own.
 
 Linear and logistic regression, though both are a part of supervised learning but possess different characteristics. Supervised learning can further be categorized as:
-&emsp;&emsp;&emsp;- Classification 
-&emsp;&emsp;&emsp;- Regression 
+- Classification 
+- Regression 
 
 Logistic regression is a classification problem despite having ‘regression’ suffixed in its name, and Linear regression is a regression type of problem. 
 

@@ -14,4 +14,6 @@ Linear and logistic regression, though both are a part of supervised learning bu
 
 Logistic regression is a classification problem despite having ‘regression’ suffixed in its name, and Linear regression is a regression type of problem. 
 
-Logistic regression works on the basis of a sigmoid curve, which is an S-shaped curve if visualized on a graph. The range for the plot varies from 0 to 1. The values considered are reduced using a function which is: 
+Logistic regression works on the basis of a sigmoid curve, which is an S-shaped curve if visualized on a graph. The range for the plot varies from 0 to 1. The values considered are reduced using a function which is:
+<img src ="/home/saksham/ff.png" alt ="Logistic Regression formula" style="height: 100px; width:100px;"/>
+Logistic Regression is a significant machine learning algorithm because it has the ability to provide probabilities and classify new data using continuous and discrete datasets. Logistic regression predicts the probability of an occurrence and then classifies it. The classification revolves around two states. 

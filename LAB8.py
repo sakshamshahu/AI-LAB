@@ -16,16 +16,16 @@ y = iris.target
 X_train,X_test,y_train,y_test= train_test_split(X,y,test_size=0.4)
 error1= []
 error2= []
-for k in range(1,25):
+for k in range(1,20):
     knn= KNeighborsClassifier(n_neighbors=k)
     knn.fit(X_train,y_train)
     y_pred1= knn.predict(X_train)
     error1.append(np.mean(y_train!= y_pred1))
     y_pred2= knn.predict(X_test)
     error2.append(np.mean(y_test!= y_pred2))
-# plt.figure(figsize(10,5))
-plt.plot(range(1,25),error1,label="train")
-plt.plot(range(1,25),error2,label="test")
+
+plt.plot(range(1,20),error1,label="train")
+plt.plot(range(1,20),error2,label="test")
 plt.xlabel('k Value')
 plt.ylabel('Error')
 plt.legend()

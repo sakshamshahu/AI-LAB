@@ -24,4 +24,4 @@ Logistic Regression is a significant machine learning algorithm because it has t
 
 Whereas, Linear regression is a linear model, e.g., a model that assumes a linear relationship between the input variables (x) and the single output variable (y). More specifically, that y can be calculated from a linear combination of the input variables (x). When working with linear regression, our main goal is to find the best fit line which means the error between predicted values and actual values should be minimized. The best fit line will have the least error. Thus, linear regression doesn’t provide us with a definite 2-state classification, instead, it will provide me the prediction based on the best fit line. So, the response variable generated tends to be continuous.
 
-![Linear Regression](imgs/LinearRegression.png "Linear Regression")
+![Linear Regression](https://github.com/Saksham-Shahu/AI-LAB/blob/e77d23d3bf51e0175931a592372fe3ec3874351a/imgs/LinearRegression.png "Linear Regression")

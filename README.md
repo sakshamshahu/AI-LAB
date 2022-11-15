@@ -7,3 +7,5 @@
 6) Linear and Logistic Regression - Summary Writeup
 7) K-Nearest Neighbour Implementation 
 8) K- Value analysis on Iris dataset
+9) Logistic Regression on Iris dataset 
+10) SVM on Iris dataset

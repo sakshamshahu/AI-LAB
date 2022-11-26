@@ -4,6 +4,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn import metrics
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("mushrooms.csv")
 
@@ -21,3 +23,13 @@ model1 =LogisticRegression(solver="newton-cg").fit(x_train,y_train)
 model2 =LogisticRegression().fit(x_train,y_train)
 print("Test Accuracy (newtoncg): {}%".format(model1.score(x_test,y_test)*100))
 print("Test Accuracy: {}%".format(model2.score(x_test,y_test)*100))
+
+from sklearn.metrics import confusion_matrix
+y_pred_model1 = model1.predict(x_test)
+y_true_model1 = y_test
+cm = confusion_matrix(y_true_model1, y_pred_model1)
+f, ax = plt.subplots(figsize =(5,5))
+sns.heatmap(cm,annot = True,linewidths=0.5,linecolor="red",fmt = ".0f",ax=ax)
+plt.xlabel("y_pred_lr")
+plt.ylabel("y_true_lr")
+plt.show()

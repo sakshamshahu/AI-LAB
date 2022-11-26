@@ -8,6 +8,7 @@ from sklearn.model_selection import cross_val_score
 dataset = pd.read_csv("Iris.csv")
 dataset = dataset.replace({"Species":  {"Iris-setosa":1,"Iris-versicolor":2, "Iris-virginica":3}})
 dataset = dataset.drop(columns= "Id")
+
 X = dataset.iloc[:,:-1]
 y = dataset.iloc[:, -1].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
